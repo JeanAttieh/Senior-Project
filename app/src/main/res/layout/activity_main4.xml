@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ScrollView
+        android:layout_width="309dp"
+        android:layout_height="428dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.494">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/square"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="square" />
+
+            <Button
+                android:id="@+id/rectangle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rectangle" />
+
+            <Button
+                android:id="@+id/triangle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="triangle" />
+
+            <Button
+                android:id="@+id/diamond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="diamond" />
+
+            <Button
+                android:id="@+id/trapezoid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="trapezoid" />
+
+            <Button
+                android:id="@+id/regularPolygon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="regular polygon" />
+
+            <Button
+                android:id="@+id/circle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="circle" />
+
+            <Button
+                android:id="@+id/cone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cone" />
+
+            <Button
+                android:id="@+id/sphere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="sphere" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
