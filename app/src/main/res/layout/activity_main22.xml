@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity22">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="125dp"
+        android:text="f(x) = ax\u00b2 + bx + c\nΔ = b\u00b2 - 4ac"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/aValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="182dp"
+        android:ems="10"
+        android:hint="Enter the value of a"
+        android:digits="1234567890.,"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/bValue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/bValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+
+        android:ems="10"
+        android:hint="Enter the value of b"
+        android:digits="1234567890.,"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aValue" />
+
+    <EditText
+        android:id="@+id/cValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:ems="10"
+        android:hint="Enter the value of c"
+        android:digits="1234567890.,"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bValue" />
+
+    <Button
+        android:id="@+id/quadraticCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="144dp"
+        android:text="solve"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cValue" />
+
+    <TextView
+        android:id="@+id/quadraticRslt"
+        android:layout_width="305dp"
+        android:layout_height="205dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quadraticCalc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

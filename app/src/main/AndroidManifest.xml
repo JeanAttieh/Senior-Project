@@ -10,6 +10,72 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Final_try">
         <activity
+            android:name=".MainActivity27"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity26"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity25"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity24"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity23"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity22"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity21"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity20"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity19"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity18"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity17"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity16"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity15"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity14"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity13"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity12"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity6"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity5"
             android:exported="false" />
         <activity

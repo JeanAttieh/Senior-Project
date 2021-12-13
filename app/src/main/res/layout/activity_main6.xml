@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity5">
+    tools:context=".MainActivity6">
 
     <EditText
-        android:id="@+id/squareLength"
+        android:id="@+id/rectWidth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="152dp"
         android:digits="1234567890.,"
         android:ems="10"
-        android:hint="length in cm"
+        android:hint="w in cm"
         android:inputType="numberDecimal"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,21 +35,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/calculateSquare"
+        android:id="@+id/calculateRectangle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="126dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="27dp"
         android:layout_marginEnd="126dp"
         android:text="calculate"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/squareLength" />
+        app:layout_constraintTop_toBottomOf="@+id/rectLength" />
 
     <TextView
-        android:id="@+id/squareRslt"
+        android:id="@+id/rectangleRslt"
         android:layout_width="298dp"
         android:layout_height="98dp"
         android:layout_marginStart="176dp"
@@ -71,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="1dp"
-        android:text=" l: length"
+        android:text=" l: length , w: width"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textView13"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,12 +83,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
         android:layout_marginEnd="119dp"
-        android:text="Perimeter: 4 * l"
+        android:layout_marginRight="119dp"
+        android:text="Perimeter: 2l + 2w"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textView14"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -96,13 +98,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
         android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
         android:layout_marginBottom="76dp"
-        android:text="Area: l * l"
+        android:text="Area: l * w"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/rectLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="113dp"
+        android:digits="1234567890.,"
+        android:ems="10"
+        android:hint="l in cm"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
