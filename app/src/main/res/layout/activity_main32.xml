@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity32">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="389dp"
+        android:layout_height="625dp"
+        android:gravity="center"
+        android:text="Sum formulas:\n\nsin(a+b) = sin a * cos b + sin b * cos a\ncos(a+b) = cos a * cos b - sin a * sin b\ntan(a+b) = (tan a + tan b) / 1 - (tan a * tan b)\n\nDifference formulas:\n\nsin(a-b) = sin a * cos b - sin b * cos a\ncos(a-b) = cos a * cos b + sin a * sin b\ntan(a-b) = (tan a - tan b) / 1 + (tan a * tan b)\n\nDouble angle formulas:\n\nsin(2a) = 2 * sin a * cos a\ncos(2a) = cos\u00b2 a - sin\u00b2 a\ntan(2a) = 2tan a / 1 - tan\u00b2 a"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="40dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

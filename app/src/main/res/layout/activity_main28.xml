@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity28">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:text="Fundamenta identities:\n\nsin\u00b2 α + cos\u00b2 α = 1\ntan α = sin α/cos α\ntan\u00b2 α + 1 = 1/cos\u00b2 α\n\nExact values:\n\nsin(π/6) = 1/2\nsin(π/4) = \u221a2/2\nsin(π/3) = \u221a3/2\n\ncos(π/6) = \u221a3/2\ncos(π/4) = \u221a2/2\ncos(π/3) = 1/2"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

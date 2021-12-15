@@ -6,4 +6,65 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity27">
 
+    <Button
+        android:id="@+id/fundamental"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="106dp"
+        android:text="fundamental"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/trigRatios"
+        android:layout_width="200sp"
+        android:layout_height="60dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="106dp"
+        android:text="ratios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fundamental" />
+
+    <Button
+        android:id="@+id/trigLaws"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="106dp"
+        android:text="laws"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trigRatios" />
+
+    <Button
+        android:id="@+id/angleRelations"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="106dp"
+        android:text="angle relationship"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trigLaws" />
+
+    <Button
+        android:id="@+id/trigFormulas"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="106dp"
+        android:text="formulas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/angleRelations" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

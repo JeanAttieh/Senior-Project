@@ -17,7 +17,7 @@ public class MainActivity5 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main6);
+        setContentView(R.layout.activity_main5);
 
         this.setTitle("Square");
         EditText squareLength = (EditText) findViewById(R.id.squareLength);

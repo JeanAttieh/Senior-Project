@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity29">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="94dp"
+        android:text="Trigonometry calculation"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/angleDegree"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="α: angle in degree"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/angleRadian"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="ß: value in radian"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/angleDegree" />
+
+    <Button
+        android:id="@+id/sinBtn"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="9dp"
+        android:text="Sine"
+        app:layout_constraintEnd_toStartOf="@+id/cosBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/cosBtn"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="24dp"
+        android:text="cosine"
+        app:layout_constraintEnd_toStartOf="@+id/tanBtn"
+        app:layout_constraintStart_toEndOf="@+id/sinBtn"
+        app:layout_constraintTop_toBottomOf="@+id/angleRadian" />
+
+    <Button
+        android:id="@+id/tanBtn"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="18dp"
+        android:text="tangent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cosBtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/ratioRslt"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="31dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sinBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

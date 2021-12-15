@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Final_try">
         <activity
+            android:name=".MainActivity32"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity31"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity30"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity29"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity28"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity27"
             android:exported="false" />
         <activity
