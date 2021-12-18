@@ -21,25 +21,28 @@
 
     <EditText
         android:id="@+id/angleDegree"
-        android:layout_width="150dp"
+        android:layout_width="350dp"
         android:layout_height="50dp"
-        android:layout_marginStart="128dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="60dp"
+        android:digits="1234567890.,"
         android:ems="10"
         android:hint="α: angle in degree"
-        android:inputType="textPersonName"
+        android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
         android:id="@+id/angleRadian"
-        android:layout_width="150dp"
+        android:layout_width="350dp"
         android:layout_height="50dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="24dp"
-        android:gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="31dp"
+        android:gravity="fill"
         android:text="ß: value in radian"
         android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/angleDegree" />
 
@@ -60,7 +63,7 @@
         android:layout_width="110dp"
         android:layout_height="50dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="24dp"
         android:text="cosine"
         app:layout_constraintEnd_toStartOf="@+id/tanBtn"

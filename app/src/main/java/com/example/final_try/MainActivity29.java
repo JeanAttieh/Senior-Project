@@ -32,10 +32,9 @@ public class MainActivity29 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 degree = Double.parseDouble(angleDegree.getText().toString());
-                radian = 0.0174533 * degree;
-                angleRadian.setText(degree + " is equal to " + radianFormat.format(radian) + " in radian.");
+                angleRadian.setText(degree + " degrees is equal to " + radianFormat.format(degree * 0.0174533) + " radian.");
                 sin = Math.sin(Math.toRadians(degree));
-                ratioRslt.setText("The sine of " + degree + " is: " + sin + "\nThe sine of " + radianFormat.format(radian) + " is: " + radianFormat.format(Math.sin(radian) + "."));
+                ratioRslt.setText("The sine of " + degree + " is: " + radianFormat.format(sin) + "\nThe sine in radian of " + degree + " is: " + Math.sin(degree));
             }
         });
 
@@ -44,10 +43,9 @@ public class MainActivity29 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 degree = Double.parseDouble(angleDegree.getText().toString());
-                radian = 0.0174533 * degree;
-                angleRadian.setText(degree + " is equal to " + radianFormat.format(radian) + " in radian.");
+                angleRadian.setText(degree + " degrees is equal to " + radianFormat.format(degree * 0.0174533) + " radian.");
                 cos = Math.cos(Math.toRadians(degree));
-                ratioRslt.setText("The cosine of " + degree + " is: " + cos + "\nThe cosine of " + radianFormat.format(radian) + " is: " + radianFormat.format(Math.cos(radian) + "."));
+                ratioRslt.setText("The cosine of " + degree + " is: " + radianFormat.format(cos) + "\nThe cosine in radian of " + degree + " is: " + radianFormat.format(Math.cos(degree)));
             }
         });
 
@@ -56,10 +54,9 @@ public class MainActivity29 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 degree = Double.parseDouble(angleDegree.getText().toString());
-                radian = 0.0174533 * degree;
-                angleRadian.setText(degree + " is equal to " + radianFormat.format(radian) + " in radian.");
+                angleRadian.setText(degree + " degrees is equal to " + radianFormat.format(degree * 0.0174533) + " radian.");
                 tan = Math.tan(Math.toRadians(degree));
-                ratioRslt.setText(String.format("The tangent of " + degree + " is: " + tan + "\nThe tangent of " + radianFormat.format(radian) + " is: " + radianFormat.format(Math.tan(radian) + ".")));
+                ratioRslt.setText("The tangent of " + degree + " is: " + radianFormat.format(tan) + "\nThe tangent in radian of " + degree + " is: " + radianFormat.format(Math.tan(degree)));
 
             }
         });

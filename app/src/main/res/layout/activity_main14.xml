@@ -6,63 +6,77 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity4">
 
-    <ScrollView
-        android:layout_width="309dp"
-        android:layout_height="428dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginRight="1dp"
-        android:layout_marginBottom="1dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <Button
+        android:id="@+id/cube"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="31dp"
+        android:text="cube"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.494">
+        app:layout_constraintTop_toBottomOf="@+id/cuboid" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+    <Button
+        android:id="@+id/cuboid"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="31dp"
+        android:text="cuboid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cylinder" />
 
-            <Button
-                android:id="@+id/cube"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="cube" />
+    <Button
+        android:id="@+id/cylinder"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="31dp"
+        android:text="cylinder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coneVolume" />
 
-            <Button
-                android:id="@+id/cuboid"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="cuboid" />
+    <Button
+        android:id="@+id/coneVolume"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="31dp"
+        android:text="Cone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prism" />
 
-            <Button
-                android:id="@+id/prism"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="prism" />
+    <Button
+        android:id="@+id/sphereVolume"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="31dp"
+        android:text="regular sphere"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
-                android:id="@+id/cylinder"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="cylinder" />
+    <Button
+        android:id="@+id/prism"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="31dp"
+        android:text="prism"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sphereVolume" />
 
-            <Button
-                android:id="@+id/coneVolume"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="coneVolume" />
-
-            <Button
-                android:id="@+id/sphereVolume"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="regular sphereVolume" />
-
-
-        </LinearLayout>
-    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

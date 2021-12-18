@@ -8,11 +8,11 @@
 
     <EditText
         android:id="@+id/cuboidVolHeight"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
         android:digits="1234567890"
         android:ems="10"
-        android:hint="Height in cm"
+        android:hint="Height in meters"
         android:inputType="numberDecimal"
         android:text=""
         android:textSize="20sp"
@@ -23,26 +23,27 @@
 
     <EditText
         android:id="@+id/cuboidVolDepth"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
         android:digits="1234567890"
         android:ems="10"
-        android:hint="Depth in cm"
+        android:hint="Depth in meters"
         android:inputType="numberDecimal"
         android:text=""
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cuboidVolHeight" />
 
     <EditText
         android:id="@+id/cuboidVolLength"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
         android:digits="1234567890"
         android:ems="10"
-        android:hint="Length in cm"
+        android:hint="Length in meters"
         android:inputType="numberDecimal"
         android:text=""
         android:textSize="20sp"
@@ -71,12 +72,14 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cuboidVolRslt"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/cuboidVolRslt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
         android:gravity="center_horizontal"
         android:textAlignment="center"
         android:textSize="30sp"
@@ -86,8 +89,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="356dp"
-        android:layout_height="260dp"
+        android:layout_width="297dp"
+        android:layout_height="189dp"
         android:layout_marginStart="27dp"
         android:layout_marginEnd="28dp"
         android:scaleType="fitCenter"

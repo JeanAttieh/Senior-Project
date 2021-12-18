@@ -56,7 +56,7 @@ public class MainActivity3 extends AppCompatActivity {
         vector.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent (getApplicationContext(), MainActivity35.class);
+                Intent startIntent = new Intent (getApplicationContext(), MainActivity33.class);
                 startActivity(startIntent);
             }
         });
@@ -65,7 +65,7 @@ public class MainActivity3 extends AppCompatActivity {
         statistic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), MainActivity36.class);
+                Intent startIntent = new Intent(getApplicationContext(), MainActivity34.class);
                 startActivity(startIntent);
             }
         });
@@ -74,7 +74,7 @@ public class MainActivity3 extends AppCompatActivity {
         probabilityAndSets.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent (getApplicationContext(), MainActivity44.class);
+                Intent startIntent = new Intent (getApplicationContext(), MainActivity37.class);
                 startActivity(startIntent);
             }
         });
@@ -83,7 +83,7 @@ public class MainActivity3 extends AppCompatActivity {
         sequence.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent (getApplicationContext(), MainActivity45.class);
+                Intent startIntent = new Intent (getApplicationContext(), MainActivity35.class);
                 startActivity(startIntent);
             }
         });
@@ -92,7 +92,7 @@ public class MainActivity3 extends AppCompatActivity {
         derivative.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent (getApplicationContext(), MainActivity46.class);
+                Intent startIntent = new Intent (getApplicationContext(), MainActivity36.class);
                 startActivity(startIntent);
             }
         });
@@ -101,7 +101,7 @@ public class MainActivity3 extends AppCompatActivity {
         logarithm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent (getApplicationContext(), MainActivity47.class);
+                Intent startIntent = new Intent (getApplicationContext(), MainActivity38.class);
                 startActivity(startIntent);
             }
         });
@@ -110,7 +110,7 @@ public class MainActivity3 extends AppCompatActivity {
         specialLimit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent (getApplicationContext(), MainActivity48.class);
+                Intent startIntent = new Intent (getApplicationContext(), MainActivity39.class);
                 startActivity(startIntent);
             }
         });
@@ -119,7 +119,7 @@ public class MainActivity3 extends AppCompatActivity {
         integralAndPrimitive.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent (getApplicationContext(), MainActivity49.class);
+                Intent startIntent = new Intent (getApplicationContext(), MainActivity40.class);
                 startActivity(startIntent);
             }
         });

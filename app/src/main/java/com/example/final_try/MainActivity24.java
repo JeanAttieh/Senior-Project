@@ -32,6 +32,6 @@ public class MainActivity24 extends AppCompatActivity {
                 Intent startIntent = new Intent(getApplicationContext(), MainActivity26.class);
                 startActivity(startIntent);
             }
-        }
+        });
     }
 }

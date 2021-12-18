@@ -8,12 +8,12 @@
 
     <EditText
         android:id="@+id/rectWidth"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
         android:layout_marginTop="152dp"
         android:digits="1234567890.,"
         android:ems="10"
-        android:hint="w in cm"
+        android:hint="w in meters"
         android:inputType="numberDecimal"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="126dp"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="126dp"
         android:text="calculate"
         android:textSize="20sp"
@@ -50,20 +50,17 @@
 
     <TextView
         android:id="@+id/rectangleRslt"
-        android:layout_width="298dp"
-        android:layout_height="98dp"
+        android:layout_width="360dp"
+        android:layout_height="252dp"
         android:layout_marginStart="176dp"
-        android:layout_marginLeft="176dp"
-        android:layout_marginTop="352dp"
         android:layout_marginEnd="235dp"
-        android:layout_marginRight="235dp"
         android:gravity="center_horizontal"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.382"
+        app:layout_constraintHorizontal_bias="0.419"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/calculateRectangle" />
 
     <TextView
         android:id="@+id/textView9"
@@ -111,19 +108,18 @@
 
     <EditText
         android:id="@+id/rectLength"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
         android:layout_marginStart="88dp"
-        android:layout_marginTop="148dp"
         android:layout_marginEnd="113dp"
         android:digits="1234567890.,"
         android:ems="10"
-        android:hint="l in cm"
+        android:hint="l in meters"
         android:inputType="numberDecimal"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/rectWidth" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
