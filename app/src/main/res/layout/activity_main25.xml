@@ -29,19 +29,19 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="14dp"
         android:layout_marginTop="68dp"
-        android:digits="1234567890.,"
+        android:digits="1234567890."
         android:ems="10"
         android:hint="Enter the value of a"
         android:inputType="numberDecimal"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+        app:layout_constraintTop_toBottomOf="@+id/textView39"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/bPosValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:digits="1234567890.,"
         android:ems="10"
         android:hint="Enter the value of b"
@@ -50,17 +50,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/aPosValue" />
+        app:layout_constraintTop_toBottomOf="@+id/aPosValue"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/positiveCalc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="149dp"
+        android:background="@drawable/custom_button"
         android:text="Solve"
         android:textSize="14sp"
+        app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bPosValue" />

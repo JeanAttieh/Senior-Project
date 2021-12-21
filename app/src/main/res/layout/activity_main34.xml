@@ -28,10 +28,10 @@
                         android:id="@+id/textView11"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#00BCD4"
+                        android:background="#2C3E50"
                         android:gravity="center"
                         android:text="Used symbols:"
-                        android:textColor="#000000"
+                        android:textColor="#FFFFFF"
                         android:textSize="20sp" />
 
                     <ImageView
@@ -45,10 +45,10 @@
                         android:id="@+id/textView8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#00BCD4"
+                        android:background="#2C3E50"
                         android:gravity="center"
                         android:text="Sample mean:"
-                        android:textColor="#000000"
+                        android:textColor="#FFFFFF"
                         android:textSize="20sp" />
 
                     <ImageView
@@ -62,10 +62,10 @@
                         android:id="@+id/textView10"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#00BCD4"
+                        android:background="#2C3E50"
                         android:gravity="center"
                         android:text="Median:"
-                        android:textColor="#000000"
+                        android:textColor="#FFFFFF"
                         android:textSize="20sp" />
 
                     <ImageView
@@ -80,9 +80,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:background="#00BCD4"
+                        android:background="#2C3E50"
                         android:text="Sum of deviation from the mean:"
-                        android:textColor="#000000"
+                        android:textColor="#FFFFFF"
                         android:textSize="20sp" />
 
                     <ImageView
@@ -97,9 +97,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:background="#00BCD4"
+                        android:background="#2C3E50"
                         android:text="Sum of squared deviation from the mean:"
-                        android:textColor="#000000"
+                        android:textColor="#FFFFFF"
                         android:textSize="20sp" />
 
                     <ImageView
@@ -114,9 +114,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:background="#00BCD4"
+                        android:background="#2C3E50"
                         android:text="Sample variance:"
-                        android:textColor="#000000"
+                        android:textColor="#FFFFFF"
                         android:textSize="20sp" />
 
                     <ImageView
@@ -130,9 +130,9 @@
                         android:id="@+id/textView20"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#00BCD4"
+                        android:background="#2C3E50"
                         android:text="Sample standard deviation"
-                        android:textColor="#000000"
+                        android:textColor="#FFFFFF"
                         android:textSize="20sp" />
 
                     <ImageView

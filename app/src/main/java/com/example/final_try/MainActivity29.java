@@ -34,7 +34,7 @@ public class MainActivity29 extends AppCompatActivity {
                 degree = Double.parseDouble(angleDegree.getText().toString());
                 angleRadian.setText(degree + " degrees is equal to " + radianFormat.format(degree * 0.0174533) + " radian.");
                 sin = Math.sin(Math.toRadians(degree));
-                ratioRslt.setText("The sine of " + degree + " is: " + radianFormat.format(sin) + "\nThe sine in radian of " + degree + " is: " + Math.sin(degree));
+                ratioRslt.setText("The sine of " + degree + " is: " + radianFormat.format(sin) + "\nThe sine of " + degree + " in radian is: " + radianFormat.format(Math.sin(degree)));
             }
         });
 
@@ -45,7 +45,7 @@ public class MainActivity29 extends AppCompatActivity {
                 degree = Double.parseDouble(angleDegree.getText().toString());
                 angleRadian.setText(degree + " degrees is equal to " + radianFormat.format(degree * 0.0174533) + " radian.");
                 cos = Math.cos(Math.toRadians(degree));
-                ratioRslt.setText("The cosine of " + degree + " is: " + radianFormat.format(cos) + "\nThe cosine in radian of " + degree + " is: " + radianFormat.format(Math.cos(degree)));
+                ratioRslt.setText("The cosine of " + degree + " is: " + radianFormat.format(cos) + "\nThe cosine of " + degree + " in radian is: " + radianFormat.format(Math.cos(degree)));
             }
         });
 
@@ -56,7 +56,7 @@ public class MainActivity29 extends AppCompatActivity {
                 degree = Double.parseDouble(angleDegree.getText().toString());
                 angleRadian.setText(degree + " degrees is equal to " + radianFormat.format(degree * 0.0174533) + " radian.");
                 tan = Math.tan(Math.toRadians(degree));
-                ratioRslt.setText("The tangent of " + degree + " is: " + radianFormat.format(tan) + "\nThe tangent in radian of " + degree + " is: " + radianFormat.format(Math.tan(degree)));
+                ratioRslt.setText("The tangent of " + degree + " is: " + radianFormat.format(tan) + "\nThe tangent of " + degree + " in radian is: " + radianFormat.format(Math.tan(degree)));
 
             }
         });

@@ -11,7 +11,7 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginTop="152dp"
-        android:digits="1234567890.,"
+        android:digits="1234567890."
         android:ems="10"
         android:hint="length in meters"
         android:inputType="numberDecimal"
@@ -41,6 +41,8 @@
         android:layout_marginStart="126dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="126dp"
+        android:background="@drawable/custom_button"
+        app:backgroundTint="@null"
         android:text="calculate"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -69,40 +71,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="1dp"
-        android:text=" l: length"
+        android:text=" l: length\nPerimeter: 4 * l\nArea: l * l"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView13"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/squareRslt" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="119dp"
-        android:layout_marginEnd="119dp"
-        android:text="Perimeter: 4 * l"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginBottom="148dp"
-        android:text="Area: l * l"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.567"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/drawable/custom2.xml" value="0.2203125" />
+        <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/drawable/custom_button.xml" value="0.2203125" />
+        <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main10.xml" value="0.20416666666666666" />
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main11.xml" value="0.20416666666666666" />
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main12.xml" value="0.19010416666666666" />
@@ -17,7 +20,7 @@
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main20.xml" value="0.20416666666666666" />
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main21.xml" value="0.20416666666666666" />
-        <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main22.xml" value="0.19010416666666666" />
+        <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main22.xml" value="0.22" />
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main23.xml" value="0.20416666666666666" />
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main24.xml" value="0.20416666666666666" />
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main25.xml" value="0.22" />
@@ -38,6 +41,9 @@
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main39.xml" value="0.19010416666666666" />
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main4.xml" value="0.20416666666666666" />
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main40.xml" value="0.19010416666666666" />
+        <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main41.xml" value="0.25" />
+        <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main42.xml" value="0.1" />
+        <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main43.xml" value="0.25" />
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main5.xml" value="0.20416666666666666" />
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main6.xml" value="0.20416666666666666" />
         <entry key="..\:/RECOVERED/OLD/JEAN ATTIEH/AndroidStudioProjects/final_try/app/src/main/res/layout/activity_main7.xml" value="0.1802536231884058" />

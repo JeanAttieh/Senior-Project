@@ -26,7 +26,7 @@
         android:layout_marginStart="105dp"
         android:layout_marginTop="31dp"
         android:layout_marginEnd="96dp"
-        android:digits="1234567890.,"
+        android:digits="1234567890."
         android:ems="10"
         android:hint="h in meters"
         android:inputType="numberDecimal"
@@ -41,7 +41,7 @@
         android:layout_height="50dp"
         android:layout_marginStart="92dp"
         android:layout_marginEnd="83dp"
-        android:digits="1234567890.,"
+        android:digits="1234567890."
         android:ems="10"
         android:hint="B in meters"
         android:inputType="numberDecimal"
@@ -59,7 +59,7 @@
         android:layout_marginStart="92dp"
         android:layout_marginEnd="83dp"
         android:layout_marginBottom="17dp"
-        android:digits="1234567890.,"
+        android:digits="1234567890."
         android:ems="10"
         android:hint="b in meters"
         android:inputType="numberDecimal"
@@ -67,7 +67,7 @@
         app:layout_constraintBottom_toTopOf="@+id/tarpCalculate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/diamondBigDiag" />
+        app:layout_constraintTop_toBottomOf="@+id/trapBigBase" />
 
     <Button
         android:id="@+id/tarpCalculate"
@@ -78,6 +78,8 @@
         android:layout_marginTop="17dp"
         android:layout_marginEnd="126dp"
         android:layout_marginRight="126dp"
+        android:background="@drawable/custom_button"
+        app:backgroundTint="@null"
         android:text="Calculate"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
