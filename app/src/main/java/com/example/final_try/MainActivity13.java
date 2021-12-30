@@ -18,6 +18,7 @@ public class MainActivity13 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main13);
+        this.setTitle("Sphere");
 
         radiusSphere = findViewById(R.id.radiusSphere);
         sphereRslt = findViewById(R.id.squareRslt);

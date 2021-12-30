@@ -26,156 +26,169 @@
             <ImageView
                 android:id="@+id/imageView21"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="464dp"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec2" />
 
             <ImageView
                 android:id="@+id/imageView22"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="521dp"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec3" />
 
             <ImageView
                 android:id="@+id/imageView23"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="364dp"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec4" />
 
             <ImageView
                 android:id="@+id/imageView24"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="416dp"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec5" />
 
             <ImageView
                 android:id="@+id/imageView25"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="465dp"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec6" />
 
             <ImageView
                 android:id="@+id/imageView26"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="363dp"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec7" />
 
             <ImageView
                 android:id="@+id/imageView27"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="454dp"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec8" />
 
             <ImageView
                 android:id="@+id/imageView28"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="536dp"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec9" />
 
             <ImageView
                 android:id="@+id/imageView29"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="723dp"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec10" />
 
             <ImageView
                 android:id="@+id/imageView30"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="621dp"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec11" />
 
             <ImageView
                 android:id="@+id/imageView31"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="630dp"
                 android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec12" />
 
             <ImageView
                 android:id="@+id/imageView32"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="390dp"
+                android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec13" />
 
             <ImageView
                 android:id="@+id/imageView33"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="471dp"
+                android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec14" />
 
             <ImageView
                 android:id="@+id/imageView34"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="503dp"
+                android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec15" />
 
             <ImageView
                 android:id="@+id/imageView35"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="574dp"
+                android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec16" />
 
             <ImageView
                 android:id="@+id/imageView36"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="314dp"
+                android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec17" />
 
             <ImageView
                 android:id="@+id/imageView37"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="594dp"
+                android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec18" />
 
             <ImageView
                 android:id="@+id/imageView38"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="490dp"
+                android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec19" />
 
             <ImageView
                 android:id="@+id/imageView39"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="373dp"
+                android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec20" />
 
             <ImageView
                 android:id="@+id/imageView40"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="474dp"
+                android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec21" />
 
             <ImageView
                 android:id="@+id/imageView41"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="682dp"
+                android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec22" />
 
             <ImageView
                 android:id="@+id/imageView42"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="407dp"
+                android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec23" />
 
             <ImageView
                 android:id="@+id/imageView43"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="650dp"
+                android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec24" />
 
             <ImageView
                 android:id="@+id/imageView44"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="253dp"
+                android:scaleType="fitStart"
                 app:srcCompat="@drawable/mec25" />
 
 

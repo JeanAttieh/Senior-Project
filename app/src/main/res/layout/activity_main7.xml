@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity7">
 
+
+
     <EditText
         android:id="@+id/triangleBase"
         android:layout_width="350dp"

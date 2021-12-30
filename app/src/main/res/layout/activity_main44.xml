@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity44">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView64"
+                android:layout_width="match_parent"
+                android:layout_height="539dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ter1" />
+
+            <ImageView
+                android:id="@+id/imageView65"
+                android:layout_width="match_parent"
+                android:layout_height="625dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ter2" />
+
+            <ImageView
+                android:id="@+id/imageView66"
+                android:layout_width="match_parent"
+                android:layout_height="610dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ter3" />
+
+            <ImageView
+                android:id="@+id/imageView67"
+                android:layout_width="match_parent"
+                android:layout_height="502dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ter4" />
+
+            <ImageView
+                android:id="@+id/imageView68"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ter5" />
+
+            <ImageView
+                android:id="@+id/imageView69"
+                android:layout_width="match_parent"
+                android:layout_height="508dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ter6" />
+
+            <ImageView
+                android:id="@+id/imageView70"
+                android:layout_width="match_parent"
+                android:layout_height="487dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ter7" />
+
+            <ImageView
+                android:id="@+id/imageView71"
+                android:layout_width="match_parent"
+                android:layout_height="555dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ter8" />
+
+            <ImageView
+                android:id="@+id/imageView73"
+                android:layout_width="match_parent"
+                android:layout_height="458dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ter9" />
+
+            <ImageView
+                android:id="@+id/imageView74"
+                android:layout_width="match_parent"
+                android:layout_height="566dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ter10" />
+
+            <ImageView
+                android:id="@+id/imageView75"
+                android:layout_width="match_parent"
+                android:layout_height="452dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ter11" />
+
+            <ImageView
+                android:id="@+id/imageView76"
+                android:layout_width="match_parent"
+                android:layout_height="389dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ter12" />
+
+            <ImageView
+                android:id="@+id/imageView77"
+                android:layout_width="match_parent"
+                android:layout_height="499dp"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/ter13" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

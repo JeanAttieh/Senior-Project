@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity67">
+
+    <Spinner
+        android:id="@+id/spinnerFrom"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="36dp"
+        android:scrollbarSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView46"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="Select unit to convert from:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerFrom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="88dp"
+        android:text="Select unit to convert to:"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerFrom" />
+
+    <Spinner
+        android:id="@+id/spinnerTo"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="2dp"
+        android:scrollbarSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/convBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/convRslt"
+        android:layout_width="267dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="178dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="108dp"
+        android:gravity="center"
+        android:hint="Result"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/valueToConv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="27dp"
+        android:ems="10"
+        android:digits="0123456789."
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView45"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="35dp"
+        android:text="Enter value here"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView45"
+        app:layout_constraintEnd_toStartOf="@+id/valueToConv"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/convBtn"
+        android:layout_width="108dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginEnd="152dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/convRslt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/conversionbuttonicon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

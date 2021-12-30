@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity24">
 
+
+
     <Button
         android:id="@+id/positiveFormula"
         android:layout_width="100dp"

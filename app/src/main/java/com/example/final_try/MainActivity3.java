@@ -29,7 +29,7 @@ public class MainActivity3 extends AppCompatActivity {
         volume.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplication(), MainActivity14.class);
+                Intent startIntent = new Intent(getApplicationContext(), MainActivity14.class);
                 startActivity(startIntent);
             }
         });

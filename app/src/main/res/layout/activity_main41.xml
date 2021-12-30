@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity41">
 
+    <ImageView
+        android:id="@+id/imageView104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="matrix"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/resource_try" />
+
     <Button
         android:id="@+id/atomic"
         android:layout_width="200dp"
@@ -99,7 +110,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="106dp"
         android:background="@drawable/custom_button"
-        android:text="electricity"
+        android:text="constant"
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

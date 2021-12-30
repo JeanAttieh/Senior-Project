@@ -18,6 +18,7 @@ public class MainActivity18 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main18);
+        this.setTitle("Cylinder");
 
         cylinderVolHeight = findViewById(R.id.cylinderVolHeight);
         cylinderVolRadius = findViewById(R.id.cylinderVolRadius);

@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity6">
 
+
+
     <EditText
         android:id="@+id/rectWidth"
         android:layout_width="350dp"

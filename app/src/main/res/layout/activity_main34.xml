@@ -28,11 +28,11 @@
                         android:id="@+id/textView11"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#2C3E50"
                         android:gravity="center"
                         android:text="Used symbols:"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textColor="#2C3E50"
+                        android:textSize="24sp"
+                        android:textStyle="bold"/>
 
                     <ImageView
                         android:id="@+id/imageView3"
@@ -45,11 +45,11 @@
                         android:id="@+id/textView8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#2C3E50"
                         android:gravity="center"
                         android:text="Sample mean:"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textColor="#2C3E50"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:id="@+id/imageView8"
@@ -62,11 +62,11 @@
                         android:id="@+id/textView10"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#2C3E50"
                         android:gravity="center"
                         android:text="Median:"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textColor="#2C3E50"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:id="@+id/imageView9"
@@ -80,10 +80,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:background="#2C3E50"
                         android:text="Sum of deviation from the mean:"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textColor="#2C3E50"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:id="@+id/imageView10"
@@ -97,10 +97,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:background="#2C3E50"
                         android:text="Sum of squared deviation from the mean:"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textColor="#2C3E50"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:id="@+id/imageView11"
@@ -114,10 +114,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:background="#2C3E50"
                         android:text="Sample variance:"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textColor="#2C3E50"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:id="@+id/imageView12"
@@ -130,10 +130,10 @@
                         android:id="@+id/textView20"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#2C3E50"
                         android:text="Sample standard deviation"
-                        android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textColor="#2C3E50"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:id="@+id/imageView13"
