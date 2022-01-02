@@ -8,6 +8,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Final_try">
         <activity
+            android:name=".MainActivity73"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity72"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity71"
             android:exported="false" />
         <activity

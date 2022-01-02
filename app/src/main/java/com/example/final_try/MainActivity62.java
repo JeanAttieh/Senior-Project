@@ -97,5 +97,23 @@ public class MainActivity62 extends AppCompatActivity {
                 startActivity(startIntent);
             }
         });
+
+        volumeConv = findViewById(R.id.volumeConv);
+        volumeConv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent (getApplicationContext(),MainActivity72.class);
+                startActivity(startIntent);
+            }
+        });
+
+        weightConv = findViewById(R.id.weightConv);
+        weightConv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent startIntent = new Intent(getApplicationContext(), MainActivity73.class);
+                startActivity(startIntent);
+            }
+        });
     }
 }
